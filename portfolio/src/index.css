@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #1a1a1a;
+  --color-surface: #3c3c3b;
+  --color-accent: #1446a0;
+  --color-hot: #db3069;
+  --color-gold: #f5d547;
+  --color-text: #ebebd3;
+  --color-muted: rgba(235, 235, 211, 0.5);
+  --mouse-x: 50vw;
+  --mouse-y: 50vh;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cursor-glow {
+  background:
+    radial-gradient(
+      900px circle at calc(var(--mouse-x) - 220px) var(--mouse-y),
+      rgba(20, 70, 160, 0.12),
+      transparent 70%
+    ),
+    radial-gradient(
+      900px circle at calc(var(--mouse-x) + 220px) var(--mouse-y),
+      rgba(219, 48, 105, 0.12),
+      transparent 70%
+    );
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+  }
+}
