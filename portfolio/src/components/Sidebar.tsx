@@ -107,7 +107,7 @@ export function Sidebar({ activeSection }: SidebarProps) {
           <Github size={20} />
         </a>
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/murad-hamad-a39289399/"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"

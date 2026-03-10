@@ -36,7 +36,7 @@ export function About() {
           <p>
             I&apos;m a Jordanian Software Engineering student, 
             born and raised in Amman, with roots in Jerusalem, Palestine.. I got into programming because
-            I saw it as a world with infinite things to learn - and I&apos;m someone
+            I saw it as a world with infinite things to learn and I&apos;m someone
             who genuinely loves learning. What keeps me going is building things
             and understanding the architecture beneath them: not just that
             something works, but why it works.
