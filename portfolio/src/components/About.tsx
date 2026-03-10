@@ -34,8 +34,8 @@ export function About() {
 
         <div className="space-y-5 text-[1.04rem] text-text/95">
           <p>
-            I&apos;m a Software Engineering student based in Amman, Jordan,
-            originally from Jerusalem, Palestine. I got into programming because
+            I&apos;m a Jordanian Software Engineering student, 
+            born and raised in Amman, with roots in Jerusalem, Palestine.. I got into programming because
             I saw it as a world with infinite things to learn - and I&apos;m someone
             who genuinely loves learning. What keeps me going is building things
             and understanding the architecture beneath them: not just that
