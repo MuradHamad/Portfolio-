@@ -34,17 +34,22 @@ export function About() {
 
         <div className="space-y-5 text-[1.04rem] text-text/95">
           <p>
-            I&apos;m a Jordanian Software Engineering student, 
-            born and raised in Amman, with roots in Jerusalem, Palestine.. I got into programming because
-            I saw it as a world with infinite things to learn and I&apos;m someone
-            who genuinely loves learning. What keeps me going is building things
-            and understanding the architecture beneath them: not just that
-            something works, but why it works.
+            I'm a Jordanian Software Engineering student, born and raised 
+            in Amman, with roots in Jerusalem, Palestine. I got into 
+            programming because I saw it as a world with infinite things 
+            to learn and I'm someone who genuinely loves learning. What 
+            keeps me going is building things and understanding the 
+            architecture beneath them, not just that something works, 
+            but why it works.
+
+            seriously.
           </p>
           <p>
-            I love full-stack development and working at the intersection of good
-            engineering and practical AI tools. I&apos;m still early in my career,
-            but I take the craft seriously.
+            I love full-stack development and working at the intersection 
+            of good engineering and practical AI tools. Outside of building, 
+            I create content in Arabic on Instagram, sharing what I learn 
+            about programming and AI for developers who are on the same 
+            journey. I'm still early in my career, but I take the craft 
           </p>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail } from 'lucide-react'
+import { FaInstagram } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 type SidebarProps = {
   activeSection: string
@@ -114,6 +116,24 @@ export function Sidebar({ activeSection }: SidebarProps) {
           className="text-muted transition-colors hover:text-accent"
         >
           <Linkedin size={20} />
+        </a>
+        <a
+          href="https://www.instagram.com/muradbuilds/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram"
+          className="text-muted transition-colors hover:text-accent"
+        >
+          <FaInstagram size={20} />
+        </a>
+        <a
+          href="https://x.com/Muradbuilds"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="X (Twitter)"
+          className="text-muted transition-colors hover:text-accent"
+        >
+          <FaXTwitter size={20} />
         </a>
         <a
           href="mailto:"
