@@ -16,26 +16,17 @@ const projects = [
     github: 'https://github.com/MuradHamad/shop',
   },
   {
-    name: 'World Cup 2026 Predictions',
+    name: 'PneuDx - AI Pneumonia Diagnosis System',
     description:
-      'A fully-featured prediction platform for the FIFA World Cup 2026, built end-to-end using AI-assisted (vibe coded) development. Despite using AI tooling, this project involved real engineering decisions: integrating Google OAuth, deploying to a cloud platform, and managing real-time competition between users.',
+      'My graduation project at the University of Petra. A full-stack clinical decision support web application that detects pneumonia from chest X-rays using a DenseNet121 deep learning model fused with structured clinical patient data. Designed to assist radiologists with AI-powered predictions, visual explainability via Grad-CAM heatmaps, and a RAG-based medical chatbot.',
     details: [
-      'Predict winners from group stage through knockout rounds',
-      'Pick best 8 third-placed teams from 12 groups',
-      'Visual bracket interface for all stages',
-      'Create rooms with unique codes - invite friends and compete',
-      'Google account login via Google Cloud OAuth',
+      'Hybrid AI model: DenseNet121 (image) + Clinical MLP (patient data) fusion',
+      'Grad-CAM heatmap overlays for explainable predictions',
+      'RAG-powered medical chatbot using LLaMA via Groq API and FAISS vector index',
+      'Secure patient records with Fernet encryption on sensitive PII fields',
     ],
-    stack: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Google OAuth',
-      'Google Cloud',
-      'Render',
-    ],
-    github: 'https://github.com/MuradHamad/worldCupPredictions',
-    live: 'https://worldcuppredictions.onrender.com/',
+    stack: ['Python', 'Django', 'PyTorch', 'DenseNet121', 'FAISS', 'Groq', 'Tailwind CSS', 'SQLite'],
+    github: 'https://github.com/Sadeenalkhalili/pneumonia-chatbot',
   },
 ]
 

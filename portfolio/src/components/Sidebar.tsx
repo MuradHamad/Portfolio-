@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { FileText, Github, Linkedin, Mail } from 'lucide-react'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 
@@ -90,6 +90,25 @@ export function Sidebar({ activeSection }: SidebarProps) {
             })}
           </ul>
         </motion.nav>
+
+        <motion.div
+          className="mt-8"
+          initial="hidden"
+          animate="visible"
+          custom={0.38}
+          variants={itemAnimation}
+        >
+          <a
+            href="/cv.pdf"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="View CV"
+            className="group inline-flex items-center gap-2.5 rounded-lg border border-hot px-4 py-2.5 font-mono text-xs uppercase tracking-[0.18em] text-accent transition-all duration-300 hover:border-accent hover:bg-hot/10 hover:text-hot hover:shadow-[0_0_18px_rgba(219,48,105,0.3)]"
+          >
+            <FileText size={14} className="transition-transform duration-300 group-hover:scale-110" />
+            View CV
+          </a>
+        </motion.div>
       </div>
 
       <motion.div
