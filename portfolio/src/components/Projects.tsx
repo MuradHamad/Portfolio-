@@ -2,6 +2,19 @@ import { motion } from 'framer-motion'
 import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
+    {
+    name: 'PneuDx - AI Pneumonia Diagnosis System',
+    description:
+      'My graduation project at the University of Petra. A full-stack clinical decision support web application that detects pneumonia from chest X-rays using a DenseNet121 deep learning model fused with structured clinical patient data. Designed to assist radiologists with AI-powered predictions, visual explainability via Grad-CAM heatmaps, and a RAG-based medical chatbot.',
+    details: [
+      'Hybrid AI model: DenseNet121 (image) + Clinical MLP (patient data) fusion',
+      'Grad-CAM heatmap overlays for explainable predictions',
+      'RAG-powered medical chatbot using LLaMA via Groq API and FAISS vector index',
+      'Secure patient records with Fernet encryption on sensitive PII fields',
+    ],
+    stack: ['Python', 'Django', 'PyTorch', 'DenseNet121', 'FAISS', 'Groq', 'Tailwind CSS', 'SQLite'],
+    github: 'https://github.com/Sadeenalkhalili/pneumonia-chatbot',
+  },
   {
     name: 'Shop - E-Commerce Application',
     description:
@@ -14,19 +27,6 @@ const projects = [
     ],
     stack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Bootstrap', 'MVC'],
     github: 'https://github.com/MuradHamad/shop',
-  },
-  {
-    name: 'PneuDx - AI Pneumonia Diagnosis System',
-    description:
-      'My graduation project at the University of Petra. A full-stack clinical decision support web application that detects pneumonia from chest X-rays using a DenseNet121 deep learning model fused with structured clinical patient data. Designed to assist radiologists with AI-powered predictions, visual explainability via Grad-CAM heatmaps, and a RAG-based medical chatbot.',
-    details: [
-      'Hybrid AI model: DenseNet121 (image) + Clinical MLP (patient data) fusion',
-      'Grad-CAM heatmap overlays for explainable predictions',
-      'RAG-powered medical chatbot using LLaMA via Groq API and FAISS vector index',
-      'Secure patient records with Fernet encryption on sensitive PII fields',
-    ],
-    stack: ['Python', 'Django', 'PyTorch', 'DenseNet121', 'FAISS', 'Groq', 'Tailwind CSS', 'SQLite'],
-    github: 'https://github.com/Sadeenalkhalili/pneumonia-chatbot',
   },
 ]
 
